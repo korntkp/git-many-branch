@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
     TextView tvBranchName;
+    TextView tvMoreString;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setupTitleName();
 
         tvBranchName = (TextView) findViewById(R.id.tv_branch_name);
+        tvMoreString  = (TextView) findViewById(R.id.tv_more_string);
+
         String branchName = getString(R.string.tv_branch_name);
         tvBranchName.setText(branchName);
     }
