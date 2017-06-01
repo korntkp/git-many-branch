@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String GIT_BRANCH_NAME = "feature v3";
+    private static final String GIT_BRANCH_NAME = "Develop with Feature V3";
     private static final String TAG = "MainActivity";
 
     TextView tvBranchName;
