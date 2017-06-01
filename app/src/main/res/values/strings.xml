@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">62 Git Many Branch</string>
+    <string name="tv_branch_name">Branch: Master</string>
+    <string name="tv_branch_default">Branch: no name</string>
+</resources>
